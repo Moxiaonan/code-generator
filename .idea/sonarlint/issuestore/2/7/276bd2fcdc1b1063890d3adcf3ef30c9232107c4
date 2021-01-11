@@ -1,0 +1,27 @@
+
+{	java:S115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ıø¼ÿÿÿÿÿ8¡¢‹Áê.
+{	java:S115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¿©ÔËşÿÿÿÿ8¡¢‹Áê.
+v	java:S115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äõ±8¡¢‹Áê.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ªëİ‰øÿÿÿÿ8¡¢‹Áê.
+{	java:S115,"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ö¤ãşÿÿÿÿ8¡¢‹Áê.
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(±·°ì
+\
+java:S1075n"ARefactor your code to get this URI from a customizable parameter.(Ùá×òşÿÿÿÿ
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åƒà8¡¢‹Áê.
+u	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¯¾¯A8¡¢‹Áê.
+{	java:S115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áÑ»şúÿÿÿÿ8¡¢‹Áê.
+{	java:S115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìëàÿúÿÿÿÿ8¡¢‹Áê.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶¸Ù¤øÿÿÿÿ8¡¢‹Áê.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´ƒÉ‹8¡¢‹Áê.
+:
+java:S2386*"Make this member "protected".(ôœÃ­8¸¾ö¿ê.
+H
+java:S1135"2Complete the task associated to this TODO comment.(ô¾„
+{	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ—¿¤ıÿÿÿÿ8¡¢‹Áê.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(şæ¢´ùÿÿÿÿ8¡¢‹Áê.
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(åƒà8îÜª¿ê.
+V	java:S125l"<This block of commented-out lines of code should be removed.(©¬«™ûÿÿÿÿ
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‹à§ıÿÿÿÿ8¡¢‹Áê.
+^
+java:S1075'"ARefactor your code to get this URI from a customizable parameter.(äõ±8œ¿Ú¿ê.
