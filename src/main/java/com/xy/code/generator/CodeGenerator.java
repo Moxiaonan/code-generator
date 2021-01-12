@@ -21,7 +21,7 @@ import java.util.Scanner;
  */
 public class CodeGenerator {
     /**
-     * 项目地址
+     * 常用配置
      */
     public static final String projectPath = "/Users/xiaonanmo/IdeaProjects/platform-supply-chain-manage-system/platform-supply-chain-service/platform-supply-chain-admin-service";
     public static final String dbUrl = "jdbc:mysql://localhost:3306/supply_chain?useUnicode=true&useSSL=false&characterEncoding=utf8";
@@ -29,7 +29,11 @@ public class CodeGenerator {
     public static final String dbUsername = "root";
     public static final String dbPassword = "666666";
     public static final String author = "moxiaonan";
+    public static final boolean fileOverrideFlag = false;
 
+    /**
+     * 项目配置
+     */
     public static final String sourceDir = "/src/main/java";
     public static final String serviceName = "%sService";
 
@@ -74,7 +78,7 @@ public class CodeGenerator {
         gc.setOutputDir(projectPath + sourceDir);
         gc.setAuthor(author);
         gc.setOpen(false);
-        gc.setFileOverride(true);
+        gc.setFileOverride(fileOverrideFlag);
         gc.setBaseResultMap(true);
         gc.setBaseColumnList(true);
         gc.setServiceName(serviceName);
