@@ -29,17 +29,18 @@ public class CodeGenerator {
     public static final String dbUsername = "root";
     public static final String dbPassword = "666666";
     public static final String author = "moxiaonan";
-    public static final boolean fileOverrideFlag = false;
+    public static final boolean fileOverrideFlag = true;
 
     /**
      * 项目配置
      */
     public static final String sourceDir = "/src/main/java";
-    public static final String serviceName = "%sService";
+    public static final String serviceImplName = "%sService";
 
     public static final String parentPackage = "cn.codemao.service.platform.supplychain.admin";
     public static final String controllerPackage = "controller.api";
     public static final String entityPackage = "domain.entity";
+    public static final String serviceImplPackage = "service";
 
     public static final String mapperXmlPath = "/src/main/resources/db/mysql/mapper";
 
@@ -81,7 +82,7 @@ public class CodeGenerator {
         gc.setFileOverride(fileOverrideFlag);
         gc.setBaseResultMap(true);
         gc.setBaseColumnList(true);
-        gc.setServiceName(serviceName);
+        gc.setServiceImplName(serviceImplName);
         gc.setIdType(IdType.AUTO);
         mpg.setGlobalConfig(gc);
 
@@ -99,6 +100,7 @@ public class CodeGenerator {
         pc.setParent(parentPackage);
         pc.setController(controllerPackage);
         pc.setEntity(entityPackage);
+        pc.setServiceImpl(serviceImplPackage);
         mpg.setPackageInfo(pc);
 
         // 自定义配置
@@ -133,7 +135,7 @@ public class CodeGenerator {
         // 配置自定义输出模板
         //指定自定义模板路径，注意不要带上.ftl/.vm, 会根据使用的模板引擎自动识别
         templateConfig.setController("/vm/sup/controller.java");
-        templateConfig.setService("/vm/sup/service.java");
+        templateConfig.setService(null);
         templateConfig.setServiceImpl("/vm/sup/serviceImpl.java");
         templateConfig.setMapper("/vm/sup/mapper.java");
         templateConfig.setEntity("/vm/sup/entity.java");
