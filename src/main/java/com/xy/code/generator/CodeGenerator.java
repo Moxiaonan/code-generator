@@ -41,6 +41,7 @@ public class CodeGenerator {
     public static final String controllerPackage = "controller.api";
     public static final String entityPackage = "domain.entity";
     public static final String serviceImplPackage = "service";
+    public static final String mapperPackage = "mapper";
 
     public static final String mapperXmlPath = "/src/main/resources/db/mysql/mapper";
 
@@ -101,6 +102,7 @@ public class CodeGenerator {
         pc.setController(controllerPackage);
         pc.setEntity(entityPackage);
         pc.setServiceImpl(serviceImplPackage);
+        pc.setMapper(mapperPackage);
         mpg.setPackageInfo(pc);
 
         // 自定义配置
